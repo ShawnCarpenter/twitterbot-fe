@@ -22,7 +22,6 @@ export default class Form extends Component {
         const tweet = tweetArray.join(' ');
         this.setState({tweet, link})  
       }
-
     });
   }
 
@@ -41,7 +40,6 @@ export default class Form extends Component {
             this.state.link && <a href={this.state.link}>{this.state.link}</a>
         }
       </form>
-
     );
   }
 }
