@@ -27,7 +27,7 @@ export default class Form extends Component {
 
   render() {
     return (
-      <form onSubmit={this.formHandler}>
+      <form className="mashupForm"onSubmit={this.formHandler}>
         <label>Account 1
           <input value={this.state.acc1} onChange = {e => this.setState({ acc1: e.target.value })}/>
         </label>
